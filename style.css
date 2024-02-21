@@ -1,0 +1,26 @@
+body{
+    background-image: url(https://imgs.search.brave.com/Tz6sGa_0C8qj_WrXIb2xaEwswPE5MGLW99t5h4Hn7os/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDE4MzY3/MDQuanBn);
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    height: 100vh;
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(2px);
+    width: 100%;
+}
